@@ -70,3 +70,7 @@ footer{
     background-color: #383636;
     transition: 1s;
 }
+.menu_header:active{
+    transition: 1s;
+	transform: scale(0.9);
+}
