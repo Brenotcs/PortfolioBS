@@ -23,8 +23,22 @@ header{
     padding-left: 50px;
 }
 .nav_btcs a{
+    position: relative;
     text-decoration: none;
     color: #111111;
+}
+.nav_btcs a:after{
+    content: "";
+    position: absolute;
+    background-color: #111111;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+}
+.nav_btcs a:hover:after{
+    width: 100%;
 }
 *{
     margin: 0%;
@@ -47,8 +61,8 @@ main{
 }
 footer{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-shadow: 1px 1px 1px #111111;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #ffffff;
     clear: both;
     /*background-color: rgb(121, 124, 126);*/
     background-image: linear-gradient(
@@ -82,14 +96,18 @@ footer{
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 5px;
+    padding-bottom: 5px;
     width: 20px;
     float: right;
 }
-.icons_social a{
-    
+.icons_social a{   
     border-radius: 20px;
 }
 .icons_social a:hover{
     background-color: white;
     transition: 0.5s;
+}
+.copyright{
+    float: inline-end;
+    font-family: 'Quicksand', sans-serif;
 }
