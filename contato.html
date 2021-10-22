@@ -13,11 +13,15 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand&display=swap"
+                rel="stylesheet">
+            <link
+                href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dosis:wght@300&family=Quicksand&display=swap"
+                rel="stylesheet">
 
             <img class="logo" src="logo.png">
             <nav class="nav_btcs">
-                <h1><a href="index.html">Portfólio | BTCS</h1></a> 
+                <h1><a href="index.html">Portfólio | BTCS</h1></a>
             </nav>
 
             <div align="left" id="divheader_right">
@@ -27,7 +31,7 @@
                     <a href="services.html">Serviços</a>
                     <a href="sobre_mim.html">About Me</a>
                     <a href="contato.html">contato</a>
-                    
+
                 </nav>
             </div>
     </div>
@@ -42,13 +46,36 @@
                 <a href="https://github.com/Brenotcs" target="_blank"><img src="github-logo.png"></a>
                 <a href="https://www.facebook.com/brenotcs" target="_blank"><img src="facebook-logo.png"></a>
                 <a href="https://www.linkedin.com/in/brenotcsouza/" target="_blank"><img src="linkedin-logo.png"></a>
-
             </nav>
 
-        </div>
+            <h2 class="gradient_grey">CONTATO</h2>
 
+                <form action="#" method="post">
+
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required placeholder="Nome" class="standart_input">
+                    <br>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" required placeholder="Sobrenome" class="standart_input">
+                    <br>
+                    <label for="datanascimento">Data de Nascimento</label>
+                    <input type="date" id="datanascimento" required placeholder="dd/mm/aaaa" class="standart_input">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Email" class="standart_input">
+                    
+                    <label for="send_email">Escreva algo para mim!!</label>
+                    <br><br>
+                    <textarea id="send_email" name="send_email" required placeholder=""rows="5" cols="33"></textarea>
+                    <br>    
+                   
+                    <input type="submit" value="Enviar" class="send">
+                    
+                </form>
+
+        </div>
     </main>
-<hr>
+    <hr>
     <footer>
         <div class="container">
 

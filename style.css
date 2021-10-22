@@ -45,9 +45,9 @@ header{
     padding: 0%;
 }
 #divcenter{
+    font-family: 'Dosis', sans-serif;
     float: center;
     background-color: #cfcfcf;
-    font-family: Arial, Helvetica, sans-serif;
     min-height: 600px;
     max-height: max-content;
 }
@@ -107,7 +107,56 @@ footer{
     background-color: white;
     transition: 0.5s;
 }
+.gradient_grey{
+    background-image: linear-gradient(to bottom, black, white 120%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    padding: 50px;
+}
 .copyright{
     float: inline-end;
     font-family: 'Quicksand', sans-serif;
+}
+.standart_input{
+    float: center;
+    display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 30%;
+	background: #DCDCDC;
+	border-color: #D3D3D3;
+	border-radius: 10px;
+}
+.send{
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #646464;
+}
+.send:hover{
+    background-color: #111111;
+    color: #cfcfcf;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.send:active{
+    transition: 1s;
+    transform: scale(0.9);
+}
+#send_email{
+    float: center;
+    display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 30%;
+	background: #ffffff;
+	border-color: #646464;
+	border-radius: 10px;
 }
