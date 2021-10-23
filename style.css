@@ -15,12 +15,12 @@ header{
     padding-left: 90px;
 }
 .nav_btcs{
-    text-shadow: 1px 1px  #111111;
+    text-shadow: 1px 1px  #11111100;
     font-family: 'Amatic SC', cursive;
     font-size: large;
     float: left;
     padding-top: 15px;
-    padding-left: 50px;
+    padding-left: 2px;
 }
 .nav_btcs a{
     position: relative;
