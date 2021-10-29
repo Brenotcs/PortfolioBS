@@ -80,7 +80,17 @@ footer{
     padding: 10px;
     margin-right: 30px;
     text-decoration: none;
-    color: #111111;
+    color: #111111; 
+    transition: color 2s linear; 
+    -o-transition: color 2s linear; 
+    -ms-transition: color 2s linear; 
+    -moz-transition: color 2s linear; 
+    -webkit-transition: color 2s linear; 
+    transition: color 2s linear; 
+    -o-transition: background-color 2s linear; 
+    -ms-transition: background-color 2s linear; 
+    -moz-transition: background-color 2s linear; 
+    -webkit-transition: background-color 2s linear; 
 }
 .menu_header a:hover{
     color: white;
@@ -159,4 +169,40 @@ h2{
 	background: #ffffff;
 	border-color: #646464;
 	border-radius: 10px;
+}
+.br_saiba_mais{
+    float: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 200px;
+    transition: color 2s linear; 
+    -o-transition: color 2s linear; 
+    -ms-transition: color 2s linear; 
+    -moz-transition: color 2s linear; 
+    -webkit-transition: color 2s linear; 
+}
+.br_saiba_mais:hover{
+    color: grey;
+    transition: 2s;
+
+}
+.br_saiba_mais p{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .100em;
+    font-size: 50px;
+}
+.br_saiba_mais a{
+    border-radius: 5px;
+    padding: 15px;
+    color: #111111;
+    text-decoration: none;
+    transition: color 2s linear; 
+    -o-transition: background-color 1s linear; 
+    -ms-transition: background-color 1s linear; 
+    -moz-transition: background-color 1s linear; 
+    -webkit-transition: background-color 1s linear; 
+}
+.br_saiba_mais a:hover{
+    background-color: #9490bb;
+    transition: 2s;
+    transform: scale(1.1);
 }
