@@ -245,3 +245,29 @@ h2{
     border-radius: 500px;
     margin-right: 50px;
 }
+body::-webkit-scrollbar{
+    width: 12px;
+}
+body::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #646464;
+    border-radius: 8px;
+}
+.copyright::selection{
+    background-color: #d60c0c;
+    color: #ffffff;
+}
+ .about_text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    letter-spacing: .100em;
+    padding-left: 450px;
+    padding-right: 450px;
+    text-align: justify;
+ }
+ .selection_text::selection{
+    background-color: #d60c0c;
+    color: #ffffff;
+ }
