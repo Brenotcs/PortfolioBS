@@ -44,6 +44,10 @@ header{
     margin: 0%;
     padding: 0%;
 }
+*::selection{
+    background-color: #d60c0c;
+    color: #ffffff;
+}
 #divcenter{
     font-family: 'Dosis', sans-serif;
     float: center;
@@ -266,8 +270,4 @@ body::-webkit-scrollbar-thumb{
     padding-left: 450px;
     padding-right: 450px;
     text-align: justify;
- }
- .selection_text::selection{
-    background-color: #d60c0c;
-    color: #ffffff;
  }
