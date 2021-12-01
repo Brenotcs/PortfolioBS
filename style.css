@@ -253,7 +253,7 @@ body::-webkit-scrollbar{
     width: 12px;
 }
 body::-webkit-scrollbar-track{
-    background: #ffffff;
+    background: #a89d9d;
 }
 body::-webkit-scrollbar-thumb{
     background-color: #646464;
@@ -270,4 +270,5 @@ body::-webkit-scrollbar-thumb{
     padding-left: 450px;
     padding-right: 450px;
     text-align: justify;
- }
+
+}
